@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+.container {
+  margin: 0 140px;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 140px;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+header nav ul li a {
+  margin-right: 32px;
+  text-decoration: none;
+  color: #131313;
+}
+.text {
+  text-align: center;
+  justify-content: center;
+  margin-top: 58px;
+}
+.text h1 {
+  margin-top: 10px;
+  color: #131313;
+  font-weight: 700;
+  font-size: 52px;
+}
+.text p {
+  margin-top: 15px;
+}
+.btn {
+  margin-top: 20px;
+  background-color: #0e7a81;
+  color: #ffffff;
+  padding: 16px 32px;
+  border-radius: 12px;
+  border: none;
+}
+.dog img {
+  width: 800px;
+  height: 400px;
+  margin-top: 48px;
+}
+.describtion {
+  text-align: center;
+}
+.describtion p {
+  margin-top: 15px;
+  line-height: 20px;
+}
+.group-img img {
+  display: flex;
+}
